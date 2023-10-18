@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauren Swartz - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development-Lauren Swartz- course assignment portal">
+    <meta name="author" content="Lauren Swartz">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="week01/styles/base.css">
+    <link rel="stylesheet" href="week01/styles/larger.css">
+    <link rel="stylesheet" href="week01/styles/normalize.css">
+    <link rel="icon"  href="favicon.ico">
+    <meta property="og:title" content="Web Frontend Development assignment portal"> 
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://usustatesman.com/wp-content/uploads/2017/02/smoginlogan-1-of-4.jpg%22">
+    <meta property="og:url" content="https://laurenswartz.github.io/wdd230/">
+</head>
+<body>
+    <header>    
+    <img src="week01/images/IMG_3069.jpg" alt="Lauren Swartz profile" width="50" height="64">
+    <div id="mode">
+     ☑️   
+    </div>
+    <h1>Lauren Swartz</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul class="navigation">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="week01/images/hero-small.webp">
+                <source media="(max-width: 900px)" srcset="week01/images/hero-small.webp">
+                <img src="week01/images/week1-hero-large.webp" alt="table setting" width="1500" height="750">
+            </picture>
+            <div class="herolabel">
+                <p>Durban South Africa Temple</p>
+            </div>
+        </div>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section>
+            <h3 class="card">Learning Activities</h3>
+            <ul>
+                <li>Learning Activity:<a href="week01/chamber-site-plan.html">Chamber Site Plan</a> | <a href="week01/holygrail.html">Holygrail</a>| <a href="week01/media-query.html">Media Query</a></li>
+                <li>Learning Activity:<a href="chamber/index.html">Chamber Home Page</a>| <a href="week02/design.html">Design</a>| <a href="week02/hamburger/hamburger.html">Hamburger</a></li>
+                <li>Learning Activity:<a href="week03/images/landscape.webp">WebP</a>| <a href="week03/lazyload.html">Lazyload</a>| <a href="week03/responsive-images.html">Responsive-images</a></li>
+                <li>Learning Activity:<a href="chamber/discover.html">Discover Page</a>| <a href="week04/tablebuild.html">Table build</a>| <a href="form.html">Forms</a></li>
+                <li>Learning Activity:<a href="#">Learning Activity</a>| <a href="week05/prophets.html">Prophets</a>| <a href="week05/pseudo-elements.html">Pseudo-element</a>| <a href="data/links.json">Json link</a></li>
+                <li>Learning Activity:<a href="#">Learning Activity</a><a href=""></a></li>
+                <li>Learning Activity:<a href="#">Learning Activity</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3 class="card">Information</h3>
+            <div id="weather">
+            <figure>
+            <p><img id="weather-icon" src="" alt=""><span id="current-temp"></span></p>
+            <figcaption></figcaption>
+            </figure>
+            </div>
+            <br>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </section>
+        <section id="map">
+            <h3>Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.7160612628577!2d27.90375507635785!3d-26.173375162721005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a0661d927ed9%3A0xd842fb74d6a95582!2s1%20Hull%20St%2C%20Florida%2C%20Roodepoort%2C%201710!5e0!3m2!1sen!2sza!4v1695927151577!5m2!1sen!2sza" width="450" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>©️ 2023
+            Lauren Swartz
+            🇿🇦 South Africa 🇿🇦
+        </p>
+        <p id="lastModified">Last Modified</p>
+    </footer>
+<script src="week01/scripts/getDates.js"></script> 
+<script src="week01/scripts/hamburger.js"></script>  
+<script src="week01/scripts/darkmode.js"></script>  
+<script src="week01/scripts/visits.js"></script> 
+<script src="week01/scripts/weather.js"></script>  
+<script src="week01/scripts/links.js"></script> 
+</body>
+</html>
