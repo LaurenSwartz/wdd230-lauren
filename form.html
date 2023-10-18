@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauren Swartz - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development-Lauren Swartz- course assignment portal">
+    <meta name="author" content="Lauren Swartz">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="week01/styles/form.css">
+    <link rel="stylesheet" href="week01/styles/base.css">
+    <link rel="stylesheet" href="week01/styles/larger.css">
+    <link rel="stylesheet" href="week01/styles/normalize.css">
+    <link rel="icon"  href="favicon.ico">
+    <meta property="og:title" content="Web Frontend Development assignment portal"> 
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://usustatesman.com/wp-content/uploads/2017/02/smoginlogan-1-of-4.jpg%22">
+    <meta property="og:url" content="https://laurenswartz.github.io/wdd230/">
+</head>
+<body>
+    <header>    
+    <img src="week01/images/IMG_3069.jpg" alt="Lauren Swartz profile" width="50" height="64">
+    <div id="mode">
+     ☑️   
+    </div>
+    <h1>Lauren Swartz</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul class="navigation">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="formmessage"></div>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top"> User Name* <input type="text" id="username" name="username" required></label>
+                <label class="top"> Password* <input type="password" id="password" name="password" pattern=".{8,}" required></label>
+                <label class="top"> Re-enter Your Password*<input type="password" id="password2" name="password2"></label>
+                <label class="top"> Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+                <label for="r">Page rating</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+	                <option value="0">0</option>
+	                <option value="1">1</option>
+	                <option value="2">2</option>
+	                <option value="3">3</option>
+	                <option value="4">4</option>
+	                <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Submit" class="submitBtn">
+    
+        </form>
+    </main>
+    <footer>
+        <p>©️ 2023
+            Lauren Swartz
+            🇿🇦 South Africa 🇿🇦
+        </p>
+        <p id="lastModified">Last Modified</p>
+    </footer>
+<script src="week01/scripts/getDates.js"></script> 
+<script src="week01/scripts/hamburger.js"></script>  
+<script src="week01/scripts/darkmode.js"></script>  
+<script src="week01/scripts/visits.js"></script>  
+<script src="week01/scripts/form.js"></script>
+<script src="week01/scripts/rating.js"></script>
+</body>
+</html>
