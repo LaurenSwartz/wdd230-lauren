@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+header{
+    background-color: #2c5784;
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+
+}
+
+header, main {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 2rem;
+
+}
+
+
+nav {
+    background-color: #36454f;
+    margin: 0 auto;
+    max-width: 800px;
+}
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #36454f;;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+nav {
+	background-color: #36454f;;
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+	border: 1px solid black;
+}
+
+.active {
+	color: yellow;
+}
+
+footer {
+    max-width: 640px;
+    text-align: center;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: aliceblue;
+
+}
+
+main {
+    display: grid;
+	max-width: 800px;
+	margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Great Vibes", serif;
+}
+
+section {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #bbb;
+
+}
+.card {
+	text-align: center;
+	border: 1px solid #bbb;
+	padding: 1rem;
+    background-color: aliceblue;				
+}
+
+h2 {
+	margin: 1rem auto;
+	
+}
+h3{
+	margin: 1rem auto;
+	
+}
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
+#weather-icon {
+	float: left;
+}
+.weather {
+	padding: 50px
+}
+.map {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+}
+
+.map img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

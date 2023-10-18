@@ -1,0 +1,17 @@
+@media only screen and (min-width: 38rem) {
+
+    main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    main h2 {
+        grid-column: 1/ span 2;
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li {
+        flex:1 1 100%
+    }
+   
+}    

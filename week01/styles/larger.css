@@ -1,0 +1,41 @@
+@media only screen and (min-width: 38rem) {
+
+    main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        
+    }
+    main h2 {
+        grid-column: 1/ span 2;
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li {
+        flex:1 1 100%
+    }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+    .hero {
+        grid-column: span 2;
+  
+    }
+   
+        
+       
+
+    
+    
+    
+}
