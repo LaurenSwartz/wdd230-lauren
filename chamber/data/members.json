@@ -1,0 +1,62 @@
+{
+    "prophets": [
+      {
+        "name": "Mr Box",
+        "address": "Cnr R28 and Hendrik Potgieter Road, Plot 66, Rietvlei Pinehaven, Gauteng 1739",
+        "phonenumber": "011 662 2461",
+        "websiteurl": "https://boxman.co.za",
+        "imageurl": "https://boxman.co.za/wp-content/uploads/2021/10/boxman_logo_2.png"
+      },
+      {
+        "name": "Mac Donalds",
+        "address": "Town Square Centre, Albert St, Weltevredenpark, 1709",
+        "phonenumber": "011 475 2969",
+        "websiteurl": "https://www.mcdonalds.co.za/",
+        "imageurl": "https://www.mcdonalds.co.za/media/mcdonalds-logo.png"
+      },
+      {
+        "name": "Super Sports",
+        "address": "144 Bram Fischer Dr, Bordeaux, Randburg, 2194",
+        "phonenumber": "(011) 686 6431",
+        "websiteurl": "https://supersportunited.co.za/",
+        "imageurl": "https://supersportunited.co.za/media/1044/ssufc_logo.png"
+      },
+      {
+        "name": "Adventure Golf",
+        "address": "Hendrik Potgieter Rd &, Albert St, Weltevredenpark, Johannesburg, 1709",
+        "phonenumber": "010 442 9600",
+        "websiteurl": "https://adventuregolf.co.za/",
+        "imageurl": "https://adventuregolf.co.za/wp-content/uploads/2021/07/Adventure-Golf-logo.png"
+      },
+      {
+        "name": "IJump",
+        "address": "Cnr Christiaan de Wet Rd &, Hendrik Potgieter Rd, Strubens Valley, Roodepoort, 1735",
+        "phonenumber": "011 086 6720",
+        "websiteurl": "https://ijump-trampoline.co.za/",
+        "imageurl": "https://ijump-trampoline.co.za/new/wp-content/uploads/2020/12/logo-white-tag.png"
+      },
+      {
+        "name": "Bidvest Mc Carthy",
+        "address": "Cnr R28 and Hendrik Potgieter Road, Plot 66, Rietvlei Pinehaven, Gauteng 1739",
+        "phonenumber": "011 471 1900",
+        "websiteurl": "https://constantiakloof.mccarthyvw.co.za",
+        "imageurl": "https://www.mccarthy.co.za/assets/svg/mccarthy-logo.svg"
+      },
+      {
+        "name": "Crazy Store",
+        "address": "Shop Lm059, Clearwater Mall, Hendrik Potgieter Rd, Strubens Valley, Roodepoort, 1735",
+        "phonenumber": "087 135 9084",
+        "websiteurl": "https://www.crazystore.co.za/",
+        "imageurl": "https://www.crazystore.co.za/themes/custom/fd_crazystore2019/logo.svg"
+      },
+      {
+        "name": "RocoMamas",
+        "address": "Shop 24, Town Square, Hendrik Potgieter Rd, Constantia Kloof, Roodepoort, 1724",
+        "phonenumber": "011 475 0439",
+        "websiteurl": "https://www.rocomamas.com/",
+        "imageurl": "https://www.rocomamas.com/media/1001/rm_primary-logo_no-slogan_1200px.jpg?anchor=center&mode=crop&width=520&height=94&rnd=133329246200000000"
+      }
+    
+     
+    ]
+  }
