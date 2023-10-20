@@ -7,17 +7,56 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
-header{
-    background-color:#5D576B;
-    color: #FDE2FF;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #fff;
+	padding: 5px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+	border-bottom: 1px solid #bbb;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	width: 100px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+
+.headings h1 {
+	font-size: 1rem;
+	margin: 0;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: darkgreen;
+	font-weight: 700;
+	font-size: 1rem;
+}
 
 
+
+.social svg {
+	width: 42px;
+	height: auto;
 }
 
 header, main {
